@@ -27,6 +27,9 @@ const questionFourd = prompt("Мудрец в нем видел мудреца, 
                             "Но вот подвели к нему %USERNAME%,\n" +
                             "И %USERNAME% неряху увидел бородатого.", "");
 
-alert( questionFirst.toLowerCase() );
-
-//        if questionFirst == "год"
+if (questionFirst.toLowerCase() == "год"){
+    alert( "Правильно! Переходим к следующей загадке" );
+} else {
+    alert( "Неправильно :-(" );
+    break;
+}
