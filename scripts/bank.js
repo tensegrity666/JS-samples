@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let money = +prompt("Введите сумму вклада: ", "");
 let year = +prompt("Введите срок вклада (целое количество лет): ", "");
