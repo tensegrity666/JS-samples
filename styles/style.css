@@ -1,0 +1,37 @@
+html,
+body {
+  min-width: 970px;
+  margin: 0 ;
+  padding: 0;
+  
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  
+  color: #000;
+  text-transform: uppercase;
+  
+  background-color: #fff;
+  background-image: url(../images/background.png);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.columns p {
+  flex-basis: 300px;
+  align-self: flex-start;
+}
